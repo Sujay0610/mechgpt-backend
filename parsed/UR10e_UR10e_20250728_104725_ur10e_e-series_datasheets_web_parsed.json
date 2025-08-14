@@ -1,0 +1,71 @@
+[
+  {
+    "text": "# UR10e\n\n## Technical Specification\n\nOur most versatile robot, the UR10e delivers an impressive payload of 12.5 kg and 1300 mm reach, making it ideal for a wide range of applications.\n\nToday, more than 90,000 UR collaborative industrial robots have been delivered to customers across industries and around the world. The e-Series of cobots brings incredible flexibility and unparalleled ease of use to your application.\n\nUpdated December 2024.\nCopyright \u00a9 2024 by Universal Robots A/S. All rights reserved.\n\n## UR10e Specification\n\n<table>\n<tr><td>Payload</td><td>12.5 kg (27.5 lbs)</td></tr>\n<tr><td>Reach</td><td>1300 mm (51.2 in)</td></tr>\n<tr><td>Degrees of freedom</td><td>6 rotating joints</td></tr>\n<tr><td>Programming</td><td>12 inch touchscreen with PolyScope graphical user interface</td></tr>\n<tr><td>Power consumption (average)</td><td></td></tr>\n<tr><td>Maximum power</td><td>615 W</td></tr>\n<tr><td>Moderate operating settings</td><td>350 W</td></tr>\n<tr><td>Operating temperature range</td><td>Ambient temperature: 0-50\u00b0C (32-122\u00b0F)</td></tr>\n<tr><td>Safety functions</td><td>17 configurable safety functions</td></tr>\n<tr><td>In compliance with</td><td>EN ISO 13849-1 (PLd Category 3) and EN ISO 10218-1</td></tr>\n</table>\n\n## Features\n\n<table>\n<tr><td>IP classification</td><td>IP54</td></tr>\n<tr><td>Cleanroom classification</td><td>Class 5 at \u2264 40%*</td></tr>\n<tr><td>ISO 14644-1</td><td>Class 6 at 80%*</td></tr>\n<tr><td colspan=\"2\">*velocity and payload</td></tr>\n<tr><td>Noise</td><td>< 65 dB(A)</td></tr>\n<tr><td>Robot mounting</td><td>Any orientation</td></tr>\n<tr><td>I/O Ports</td><td></td></tr>\n<tr><td>Digital In</td><td>2</td></tr>\n<tr><td>Digital Out</td><td>2</td></tr>\n<tr><td>Analog In</td><td>2</td></tr>\n<tr><td>Tool I/O power supply voltage</td><td>12/24 V</td></tr>\n<tr><td>Tool I/O power supply</td><td>2 A (Dual pin) 1 A (Single pin)</td></tr>\n</table>\n\n## Physical\n\n<table>\n<tr><td>Footprint</td><td>\u00d8 190 mm</td></tr>\n<tr><td>Materials</td><td>Aluminum, plastic, steel</td></tr>\n<tr><td>Tool flange interface</td><td>M8 8-pin female, EN ISO-9409-1-50-4-M6</td></tr>\n<tr><td>Connector type</td><td>M8 8-pin female</td></tr>\n<tr><td>Cable length (robot arm)</td><td>6 m (236 in)</td></tr>\n<tr><td>Weight including cable</td><td>33,5 kg (73.9 lbs)</td></tr>\n<tr><td>Humidity</td><td>\u2264 90% RH (non-condensing)</td></tr>\n</table>\n\n## Performance\n\n<table>\n<tr><td>Force sensing, tool flange/torque sensor</td><td>Force, x-y-z</td><td>Torque, x-y-z</td></tr>\n<tr><td>Range</td><td>\u00b1 100.0 N</td><td>\u00b1 10.0 Nm</td></tr>\n<tr><td>Precision</td><td>\u00b1 5.0 N</td><td>\u00b1 0.2 Nm</td></tr>\n<tr><td>Accuracy</td><td>\u00b1 5.5 N</td><td>\u00b1 0.5 Nm</td></tr>\n</table>\n\n## Movement\n\n<table>\n<tr><td>Max TCP speed</td><td>4 m/s</td></tr>\n<tr><td>Pose Repeatability per ISO 9283</td><td>\u00b1 0.05 mm</td></tr>\n<tr><td>Axis movement</td><td>Working range</td><td>Maximum speed</td></tr>\n<tr><td>Base</td><td>\u00b1 360\u00b0</td><td>\u00b1 120\u00b0/s</td></tr>\n<tr><td>Shoulder</td><td>\u00b1 360\u00b0</td><td>\u00b1 120\u00b0/s</td></tr>\n<tr><td>Elbow</td><td>\u00b1 360\u00b0</td><td>\u00b1 180\u00b0/s</td></tr>\n<tr><td>Wrist 1</td><td>\u00b1 360\u00b0</td><td>\u00b1 180\u00b0/s</td></tr>\n<tr><td>Wrist 2</td><td>\u00b1 360\u00b0</td><td>\u00b1 180\u00b0/s</td></tr>\n<tr><td>Wrist 3</td><td>\u00b1 360\u00b0</td><td>\u00b1 180\u00b0/s</td></tr>\n</table>\n\n## Teach Pendant\n\n### Features\n\n<table>\n<tr><td>IP classification</td><td>IP54</td></tr>\n<tr><td>Humidity</td><td>\u2264 90% RH (non-condensing)</td></tr>\n<tr><td>Display resolution</td><td>1280 x 800 pixels</td></tr>\n</table>\n\n### Physical\n\n<table>\n<tr><td>Materials</td><td>Plastic</td></tr>\n<tr><td>Teach Pendant size (W x H x D)</td><td>300 mm x 231 mm x 50 mm (11.8 in x 9.1 in x 1.97 in)</td></tr>\n<tr><td>Weight</td><td>1,8 kg (3.961 lbs) including 1 m of teach pendant cable</td></tr>\n<tr><td>Cable length</td><td>4,5 m (177.17 in)</td></tr>\n</table>\n\n## Control Box\n\n### Features",
+    "metadata": {
+      "filename": "ur10e_e-series_datasheets_web.pdf",
+      "file_path": "uploads/UR10e_20250728_104725_ur10e_e-series_datasheets_web.pdf",
+      "source": "pdf_upload_balanced",
+      "upload_time": "2025-07-28T10:48:20.949225",
+      "file_size": 277933,
+      "document_index": 0,
+      "chunk_index": 0,
+      "chunk_id": "3ac0eb7d-beea-4342-a4be-c1049f248141",
+      "total_chunks": 3,
+      "content_type": "header",
+      "chunk_length": 3832,
+      "word_count": 360,
+      "has_tables": false,
+      "has_headers": true,
+      "has_lists": false,
+      "has_code": false,
+      "section_level": 1
+    },
+    "chunk_id": "3ac0eb7d-beea-4342-a4be-c1049f248141"
+  },
+  {
+    "text": "## Teach Pendant\n\n### Features\n\n<table>\n<tr><td>IP classification</td><td>IP54</td></tr>\n<tr><td>Humidity</td><td>\u2264 90% RH (non-condensing)</td></tr>\n<tr><td>Display resolution</td><td>1280 x 800 pixels</td></tr>\n</table>\n\n### Physical\n\n<table>\n<tr><td>Materials</td><td>Plastic</td></tr>\n<tr><td>Teach Pendant size (W x H x D)</td><td>300 mm x 231 mm x 50 mm (11.8 in x 9.1 in x 1.97 in)</td></tr>\n<tr><td>Weight</td><td>1,8 kg (3.961 lbs) including 1 m of teach pendant cable</td></tr>\n<tr><td>Cable length</td><td>4,5 m (177.17 in)</td></tr>\n</table>\n\n## Control Box\n\n### Features\n\n<table>\n<tr><td>IP Classification</td><td>IP44</td></tr>\n<tr><td>Operating temperature range</td><td>Ambient temperature: 0-50\u00b0C (32-122\u00b0F)</td></tr>\n<tr><td>Humidity</td><td>\u2264 90% RH (non-condensing)</td></tr>\n<tr><td>I/O Ports</td><td></td></tr>\n<tr><td>Digital In</td><td>16</td></tr>\n<tr><td>Digital Out</td><td>16</td></tr>\n<tr><td>Analog In</td><td>2</td></tr>\n<tr><td>Analog Out</td><td>2</td></tr>\n<tr><td>Quadrature Digital Inputs</td><td>4</td></tr>\n<tr><td>I/O Power Supply</td><td>24V, 2A</td></tr>\n<tr><td>Industrial Protocols</td><td>Modbus-TCP (Client/Server)<br>Ethernet/IP Adapter<br>PROFINET device/PROFIsafe<br>ROS/ROS2</td></tr>\n<tr><td>Hardware Interfaces</td><td>Ethernet 1 Gb/s<br>USB 2.0, USB 3.0<br>Mini DisplayPort<br>Injection Moulding Machine Interface<br>(SPI AN-146 & Euromap-67)</td></tr>\n<tr><td>Power Source</td><td>100-240 VAC, 47-440 Hz</td></tr>\n</table>\n\n### Physical\n\n<table>\n<tr><td>Control Box Size (W x H x D)</td><td>460 mm x 449 mm x 254 mm (18.2 in x 17.6 in x 10 in)</td></tr>\n<tr><td>Weight</td><td>12 kg (26.5 lbs)</td></tr>\n<tr><td>Materials</td><td>Powder coated steel</td></tr>\n</table>\n\nThe control box is also available in an OEM version\n\n## UR10e payload curve\n\n<table>\n<thead>\n<tr><th>Center of gravity offset (mm)</th><th>Payload (kg)</th></tr>\n</thead>\n<tbody>\n<tr><td>0</td><td>12.5</td></tr>\n<tr><td>100</td><td>12.0</td></tr>\n<tr><td>200</td><td>10.5</td></tr>\n<tr><td>300</td><td>8.5</td></tr>\n<tr><td>400</td><td>7.0</td></tr>\n<tr><td>500</td><td>6.0</td></tr>\n<tr><td>600</td><td>5.0</td></tr>\n<tr><td>700</td><td>4.5</td></tr>\n<tr><td>800</td><td>4.0</td></tr>\n</tbody>\n</table>\n\n<schematic>\n    <bbox>0.7,0.05,1.0,0.35</bbox>\n    <caption>Interface for UR10e base flange</caption>\n    <schematic_elements>\n        <element>\n            <type>mounting_holes</type>\n            <value>4 x \u00d88.4</value>\n            <position>0.85,0.15</position>\n            <label>45\u00b0</label>\n        </element>\n        <element>\n            <type>thread</type>\n            <value>8 FG8 +0.030 x 13 +0.008</value>\n            <position>0.85,0.20</position>\n            <label>8.5 min.</label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>\u00d8120</value>\n            <position>0.85,0.25</position>\n            <label></label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>\u00d8190</value>\n            <position>0.85,0.30</position>\n            <label></label>\n        </element>\n    </schematic_elements>\n</schematic>\n\n<schematic>\n    <bbox>0.7,0.35,1.0,0.75</bbox>\n    <caption>Tool flange for UR10e</caption>\n    <schematic_elements>\n        <element>\n            <type>dimension</type>\n            <value>174.15</value>\n            <position>0.85,0.45</position>\n            <label></label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>691.4</value>\n            <position>0.85,0.50</position>\n            <label></label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>571.55</value>\n            <position>0.85,0.55</position>\n            <label></label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>119.85</value>\n            <position>0.85,0.60</position>\n            <label></label>\n        </element>\n        <element>\n            <type>dimension</type>\n            <value>612.7</value>\n            <position>0.85,0.65</position>\n            <label></label>\n        </element>\n        <element>\n            <type>radius</type>\n            <value>R1300</value>\n            <position>0.85,0.70</position>\n            <label></label>\n        </element>\n    </schematic_elements>\n</schematic>\n\n## Contact",
+    "metadata": {
+      "filename": "ur10e_e-series_datasheets_web.pdf",
+      "file_path": "uploads/UR10e_20250728_104725_ur10e_e-series_datasheets_web.pdf",
+      "source": "pdf_upload_balanced",
+      "upload_time": "2025-07-28T10:48:20.949225",
+      "file_size": 277933,
+      "document_index": 0,
+      "chunk_index": 1,
+      "chunk_id": "f4886c80-bc24-4166-8cee-8a64a056e006",
+      "total_chunks": 3,
+      "content_type": "header",
+      "chunk_length": 4355,
+      "word_count": 280,
+      "has_tables": false,
+      "has_headers": true,
+      "has_lists": false,
+      "has_code": false,
+      "section_level": 2
+    },
+    "chunk_id": "f4886c80-bc24-4166-8cee-8a64a056e006"
+  },
+  {
+    "text": "## Contact\n\nUniversal Robots A/S  \nEnergivej 51  \n5260 Odense  \nDenmark\n\n+45 89 93 89 89  \nsales@universal-robots.com  \nuniversal-robots.com",
+    "metadata": {
+      "filename": "ur10e_e-series_datasheets_web.pdf",
+      "file_path": "uploads/UR10e_20250728_104725_ur10e_e-series_datasheets_web.pdf",
+      "source": "pdf_upload_balanced",
+      "upload_time": "2025-07-28T10:48:20.949225",
+      "file_size": 277933,
+      "document_index": 0,
+      "chunk_index": 2,
+      "chunk_id": "cd3b3669-4830-42dc-8c17-b38c70a8718f",
+      "total_chunks": 3,
+      "content_type": "header",
+      "chunk_length": 140,
+      "word_count": 17,
+      "has_tables": false,
+      "has_headers": true,
+      "has_lists": false,
+      "has_code": false,
+      "section_level": 2
+    },
+    "chunk_id": "cd3b3669-4830-42dc-8c17-b38c70a8718f"
+  }
+]

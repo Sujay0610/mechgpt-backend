@@ -1,0 +1,25 @@
+[
+  {
+    "text": "UNIVERSAL ROBOTS\n\n# Cable Suite\n## Long and short cable options\n\nOur cables are made of flexible materials and specialized insulation providing long lasting durability. Find the perfect cable for your application needs.\n\n<table>\n<thead>\n<tr>\n<th>Material</th>\n<th>Color</th>\n<th>Length</th>\n<th>Diameter</th>\n<th>Gross weight</th>\n<th>e-Series</th>\n<th>UR Series</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"7\"><strong>Power cable</strong></td>\n</tr>\n<tr>\n<td>700-3xx-xx</td>\n<td>PVC</td>\n<td>Black</td>\n<td>6 m (236.22 in)</td>\n<td>country specific</td>\n<td>0.75 kg (1.7 lbs)</td>\n<td>\u25cf</td>\n<td>\u25cf</td>\n</tr>\n<tr>\n<td colspan=\"7\"><strong>Standard robot cable</strong></td>\n</tr>\n<tr>\n<td>200145</td>\n<td></td>\n<td>Black</td>\n<td>1 m (39.37 in)</td>\n<td>12.1 mm (0.84 in)</td>\n<td>0.4 kg (1 lbs)</td>\n<td>\u25cb</td>\n<td>\u25cb</td>\n</tr>\n<tr>\n<td>200146</td>\n<td></td>\n<td>Black</td>\n<td>2 m (78.74 in)</td>\n<td>12.1 mm (0.84 in)</td>\n<td>0.6 kg (1.3 lbs)</td>\n<td>\u25cb</td>\n<td>\u25cb</td>\n</tr>\n<tr>\n<td>165100</td>\n<td></td>\n<td>Black</td>\n<td>6 m (236.22 in)</td>\n<td>12.1 mm (0.84 in)</td>\n<td>2 kg (4.4 lbs)</td>\n<td>\u25cf</td>\n<td>-</td>\n</tr>\n<tr>\n<td>165101</td>\n<td></td>\n<td>Black</td>\n<td>12 m (472.44 in)</td>\n<td>12.1 mm (0.84 in)</td>\n<td>3.25 kg (7.16 lbs)</td>\n<td>\u25cb</td>\n<td>-</td>\n</tr>\n<tr>\n<td colspan=\"7\"><strong>High flex robot cable</strong></td>\n</tr>\n<tr>\n<td>166100</td>\n<td></td>\n<td>Blue</td>\n<td>6 m (236.22 in)</td>\n<td>13.4 mm (0.53 in)</td>\n<td>2.3 kg (5.07 lbs)</td>\n<td>\u25cb</td>\n<td>-</td>\n</tr>\n<tr>\n<td>166101</td>\n<td></td>\n<td>Blue</td>\n<td>12 m (472.44 in)</td>\n<td>13.4 mm (0.53 in)</td>\n<td>4.5 kg (9.92 lbs)</td>\n<td>\u25cb</td>\n<td>-</td>\n</tr>\n<tr>\n<td>200113</td>\n<td></td>\n<td>Blue</td>\n<td>6 m (236.22 in)</td>\n<td>14.6 mm (0.57 in)</td>\n<td>2.3 kg (5.07 lbs)</td>\n<td>-</td>\n<td>\u25cf</td>\n</tr>\n<tr>\n<td>200114</td>\n<td></td>\n<td>Blue</td>\n<td>12 m (472.44 in)</td>\n<td>14.6 mm (0.57 in)</td>\n<td>4.5 kg (9.92 lbs)</td>\n<td>-</td>\n<td>\u25cb</td>\n</tr>\n</tbody>\n</table>\n\n\u25cf Standard     \u25cb Optional     - Not applicable\n\n<table>\n<thead>\n<tr>\n<th colspan=\"7\">Extended robot cable set</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>#</td>\n<td colspan=\"5\">Cable Extension Set Robot to CB 40m, OEM UR3e/UR5e/UR7e</td>\n<td>\u25cb*</td>\n</tr>\n</tbody>\n</table>\n\n*applicable for OEM only\n\n## High flex extension cords\n\nHigh flex cables ensure reliable operation even under the most demanding conditions and are ideal for environments where extreme flexibility and durability are essential. These cables are engineered to endure continuous flexing, bending, and twisting over millions of cycles without compromising performance.\n\nCopyright \u00a9 2024 by Universal Robots A/S. All rights reserved. 2nd edition published December 2024",
+    "metadata": {
+      "filename": "cable-suite_a4.pdf",
+      "file_path": "uploads/UR10e_20250728_102412_cable-suite_a4.pdf",
+      "source": "pdf_upload_premium",
+      "upload_time": "2025-07-28T10:24:45.177282",
+      "file_size": 198399,
+      "document_index": 0,
+      "chunk_index": 0,
+      "chunk_id": "c07888f7-c711-4a34-b6cd-e6baa87b6968",
+      "total_chunks": 1,
+      "content_type": "header",
+      "chunk_length": 2718,
+      "word_count": 337,
+      "has_tables": false,
+      "has_headers": true,
+      "has_lists": true,
+      "has_code": false,
+      "section_level": 1
+    },
+    "chunk_id": "c07888f7-c711-4a34-b6cd-e6baa87b6968"
+  }
+]
