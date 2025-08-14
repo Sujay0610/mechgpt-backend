@@ -315,8 +315,16 @@ class AuthService:
     async def send_password_reset_otp(self, email: str) -> Dict[str, Any]:
         """Send password reset email using Supabase Auth"""
         try:
-            # Use Supabase's built-in resetPasswordForEmail method
-            auth_response = self.supabase.auth.reset_password_email(email)
+            # Get the frontend URL from environment variable or use default
+            frontend_url = os.getenv('FRONTEND_URL', 'https://mechgpt.netlify.app')
+            
+            # Use Supabase's built-in resetPasswordForEmail method with redirect URL
+            auth_response = self.supabase.auth.reset_password_email(
+                email,
+                {
+                    'redirect_to': f'{frontend_url}/auth/reset-password'
+                }
+            )
             
             return {
                 'success': True,
