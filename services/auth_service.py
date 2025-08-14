@@ -338,12 +338,25 @@ class AuthService:
                 'message': f'Failed to send password reset email: {str(e)}'
             }
     
-    async def reset_password(self, access_token: str, new_password: str) -> Dict[str, Any]:
-        """Reset password using Supabase Auth access token"""
+    async def reset_password(self, access_token: str, refresh_token: str, new_password: str) -> Dict[str, Any]:
+        """Reset password using Supabase Auth access token and refresh token"""
         try:
-            # Use Supabase's built-in updateUser method to change password
+            print(f"Reset password called with access_token: {access_token[:20]}... refresh_token: {refresh_token[:20]}...")
+            
+            # First, set the session with both access token and refresh token
+            session_response = self.supabase.auth.set_session(access_token, refresh_token)
+            
+            print(f"Session response: {session_response}")
+            
+            if not session_response.session:
+                print("Auth session missing!")
+                return {
+                    'success': False,
+                    'message': 'Invalid or expired reset token'
+                }
+            
+            # Now update the user's password
             auth_response = self.supabase.auth.update_user(
-                access_token,
                 {"password": new_password}
             )
             

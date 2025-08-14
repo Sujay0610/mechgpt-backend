@@ -20,6 +20,8 @@ class OTPVerify(BaseModel):
 
 class PasswordReset(BaseModel):
     new_password: str
+    access_token: str
+    refresh_token: str
 
 class User(BaseModel):
     id: str

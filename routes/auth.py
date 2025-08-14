@@ -155,15 +155,17 @@ async def send_password_reset_email(otp_request: OTPRequest):
         )
 
 @router.post("/reset-password", response_model=AuthResponse)
-async def reset_password(reset_data: PasswordReset, credentials: HTTPAuthorizationCredentials = Depends(security)):
-    """Reset password using access token"""
+async def reset_password(reset_data: PasswordReset):
+    """Reset password using access token and refresh token"""
     try:
-        # Extract access token from the authorization header
-        access_token = credentials.credentials
+        print(f"Reset password route called with data: {reset_data}")
+        print(f"Access token: {reset_data.access_token[:20] if reset_data.access_token else 'None'}...")
+        print(f"Refresh token: {reset_data.refresh_token[:20] if reset_data.refresh_token else 'None'}...")
         
         result = await auth_service.reset_password(
-            access_token=access_token,
-            new_password=reset_data.new_password
+            reset_data.access_token,
+            reset_data.refresh_token,
+            reset_data.new_password
         )
         
         if result['success']:
