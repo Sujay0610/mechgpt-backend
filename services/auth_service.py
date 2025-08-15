@@ -3,6 +3,7 @@ import uuid
 import hashlib
 import secrets
 import smtplib
+import logging
 from datetime import datetime, timedelta
 from typing import Optional, Dict, Any
 from email.mime.text import MIMEText
@@ -10,6 +11,9 @@ from email.mime.multipart import MIMEMultipart
 import jwt
 from config.supabase_client import get_supabase_client
 from passlib.context import CryptContext
+
+# Configure logger
+logger = logging.getLogger(__name__)
 
 class AuthService:
     def __init__(self):
@@ -315,8 +319,17 @@ class AuthService:
     async def send_password_reset_otp(self, email: str) -> Dict[str, Any]:
         """Send password reset email using Supabase Auth"""
         try:
+            # Check if user exists
+            user_response = self.supabase.table('users').select('*').eq('email', email).execute()
+            
+            if not user_response.data:
+                return {
+                    'success': False,
+                    'message': 'User not found'
+                }
+            
             # Get the frontend URL from environment variable or use default
-            frontend_url = os.getenv('FRONTEND_URL', 'https://mechgpt.netlify.app')
+            frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:3000')
             
             # Use Supabase's built-in resetPasswordForEmail method with redirect URL
             auth_response = self.supabase.auth.reset_password_email(
@@ -326,9 +339,11 @@ class AuthService:
                 }
             )
             
+            logger.info(f"Password reset email sent to {email} with redirect to {frontend_url}/auth/reset-password")
+            
             return {
                 'success': True,
-                'message': 'Password reset link sent to your email'
+                'message': 'Password reset email sent successfully. Please check your email and follow the instructions.'
             }
                 
         except Exception as e:
