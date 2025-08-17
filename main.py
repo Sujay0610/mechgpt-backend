@@ -41,7 +41,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",  # Local development
-        "https://mechgpt.netlify.app"  # Production frontend
+        "https://mechgptv1.netlify.app"  # Production frontend
     ],
     allow_credentials=True,
     allow_methods=["*"],
